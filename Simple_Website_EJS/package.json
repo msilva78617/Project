@@ -1,0 +1,26 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules/**?node_modules"
+    ],
+    "delay": "2500"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  }
+}
