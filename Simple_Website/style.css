@@ -1,0 +1,68 @@
+
+.gradientColor {
+    background-image: linear-gradient(to bottom, white,#D3D3D3);
+}
+
+.blueColor {
+    background-image: linear-gradient(to bottom, #4682b4,#084e7f);
+}
+
+.lightGrey:active {
+    background-color: #D3D3D3;
+}
+
+
+#homepage {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('img/backgrounds/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('img/backgrounds/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0;
+    width: 100vmax;
+    height: 100vh;
+    padding-top: 18rem;
+}
+
+#textDiv {
+    margin-top: 250px;
+    width: 70vw;
+}
+
+#cardImg {
+    width: 40vw;
+}
+
+.smallTxt {
+    font-size: 10px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.footHeaders {
+    color: rgb(13, 64, 216);
+}
+
+
+#contact {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('img/backgrounds/background3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 18rem;
+}
+
+hr {
+    border: 1px solid black;
+}
