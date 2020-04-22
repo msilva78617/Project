@@ -1,0 +1,38 @@
+<%- include ('partials/header') %>
+<div class="container my-5">
+  <h1 class="d-flex justify-content-center">BitCoin Price App</h1>
+  <form action = "/currency" method= "GET">
+    <div class="d-flex justify-content-center">
+      <div class="form-check">
+        <input id="usd" name="currency" class="form-check-input" type="radio" value="USD">
+        <label class="form-check-label" for="exampleRadios1">
+          USD
+        </label>
+      </div>
+      <div class="form-check">
+        <input id="gbp" name = "currency" class="form-check-input" type="radio" value="GBP">
+        <label class="form-check-label" for="exampleRadios2">
+          GBP
+        </label>
+      </div>
+      <div class="form-check">
+        <input id="eur" name="currency" class="form-check-input" type="radio" value="EUR">
+        <label class="form-check-label" for="exampleRadios3">
+          EUR
+        </label>
+      </div>
+  </div>
+    <div class="d-flex justify-content-center mb-3">
+      <!-- need to figure out how to assign the value to variable and pull that thoruh the backend -->
+      <button name="submit" type="submit" class="btn btn-primary btn-lg d-flex justify-content-center">Get Price</button>
+
+    </div>
+  </div>
+    <div class="text-center">
+        <h3>This is the current price:</h3>
+        <h2><strong><%- symbol %><%= rate %></strong></h2>
+    </div>
+  </form>
+
+
+<%- include ('partials/footer') %>
