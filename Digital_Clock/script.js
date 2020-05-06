@@ -1,3 +1,6 @@
+//Digital clock displays current time. Background color changes every second.
+
+
 var colorsArr = ['#4FC3F7', '#29B6F6', '#03A9F4', '#039BE5', '#0288D1', '#0277BD', 
                 '#01579B', '#9575CD', '#7E57C2', '#673AB7', '#5E35B1', '#512DA8', 
                 '#4527A0', '#311B92', '#7986CB', '#5C6BC0', '#3F51B5', '#3949AB', 
