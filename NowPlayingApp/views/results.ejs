@@ -1,0 +1,24 @@
+<%- include ('partials/header') %>
+<body>
+  <%- include ('partials/navbar') %> 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg"> 
+        <h2 class="mt-4 mx-4 display-4">In a Theater Near You</h2>
+        <% data.forEach( (movie, index) =>{ %>
+          <% if (index > 3) { %>
+            <% return %>
+        <%  } else { %>
+            <div class="mt-5 mx-5" id="movie-info">
+              <h2 id="title"><strong><%= movie.title %></strong></h2>
+              <h5 id="script"class="card-text"><%= movie.overview %></h5>
+              <h5 id="rating" class="card-text"><%= movie.vote_average %> out of 10 stars</h5>
+            </div>
+          <% let posterPath = `https://image.tmdb.org/t/p/w400/${movie.poster_path}` %>
+            <img  class="mt-1 mb-3 mx-5" src= "<%= posterPath %>" alt="<%= movie.title %>">
+        <% } %>      
+ <% }) %>
+
+
+<div class="sticky-bottom">
+<%- include ('partials/footer') %>

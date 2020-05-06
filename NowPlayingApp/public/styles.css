@@ -1,0 +1,23 @@
+#homeBody {
+    background-image:url('https://cdn.pixabay.com/photo/2019/05/19/10/40/cinema-4213751_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#homeBody h1 {
+    margin: auto;
+    width: 55%;
+    margin-top: 15%;
+    color: white;
+}
+
+.center {
+    margin: auto;
+    width: 50%
+}
+
+#movie-info {
+    width: 40%;
+    margin: 2% 10%;
+}

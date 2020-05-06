@@ -1,0 +1,19 @@
+<%- include ('partials/header') %>
+<body id="homeBody">
+<%- include ('partials/navbar') %>   
+
+    <div class="container-fluid mt-5 text-center mb-0%" >
+      <div class="row">
+            <div class= "col-lg" >
+                <h1 class="display-4">IN THE MOOD TO CATCH A FLICK? SEE WHAT MOVIES ARE PLAYING NOW.</h1>
+                <form action="/results" method="GET">
+                    <input class="mt-3 btn btn-warning" type="submit" value="Show Me a List of Movies!" name= "movies">
+                </form>
+            </div>
+        </div> 
+    </div>  
+
+    <div class="fixed-bottom">
+         
+
+<%- include ('partials/footer') %>
