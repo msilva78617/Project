@@ -1,3 +1,5 @@
+//Local API is connected to BitCoin API. Select currency type and click button to get current currency rate.
+
 const express = require('express')
 const app = express()
 const fetch = require('node-fetch')
